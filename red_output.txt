@@ -1,0 +1,30 @@
+F.EF.F.F.
+======================================================================
+ERROR: test_average_single_mark (__main__.TestStudentUtils.test_average_single_mark)
+----------------------------------------------------------------------
+ZeroDivisionError: division by zero
+
+======================================================================
+FAIL: test_average_of_three_marks (__main__.TestStudentUtils.test_average_of_three_marks)
+----------------------------------------------------------------------
+AssertionError: 135.0 != 90.0
+
+======================================================================
+FAIL: test_average_of_two_marks (__main__.TestStudentUtils.test_average_of_two_marks)
+----------------------------------------------------------------------
+AssertionError: 120.0 != 60.0
+
+======================================================================
+FAIL: test_pass_at_boundary (__main__.TestStudentUtils.test_pass_at_boundary)
+----------------------------------------------------------------------
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_distinction (__main__.TestStudentUtils.test_distinction)
+----------------------------------------------------------------------
+AssertionError: 'First' != 'Distinction'
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+FAILED (failures=4, errors=1)
